@@ -1,0 +1,71 @@
+Resilience Classification Intervals:
+  L1: [0.000, 0.294)
+  L2: [0.294, 0.674)
+  L3: [0.674, 0.955)
+  L4: [0.955, 1.000]
+
+CR=0.002023835794775908
+CVE: CVE-2014-0160
+Scenario: unprotected
+Civilian Layer Resilience:
+  HW: 1.000000 (L4)
+  FW: 0.679483 (L3)
+  NETW: 1.000000 (L4)
+  APPL: 0.857229 (L3)
+Civilian Overall Resilience: 0.884178
+
+Military Layer Resilience:
+  HW: 0.844155 (L3)
+  FW: 0.577057 (L2)
+  NETW: 0.830284 (L3)
+  APPL: 0.734114 (L3)
+Military Overall Resilience: 0.746402
+
+CVE: CVE-2014-0160
+Scenario: protected
+Civilian Layer Resilience:
+  HW: 1.000000 (L4)
+  FW: 0.711442 (L3)
+  NETW: 1.000000 (L4)
+  APPL: 0.931098 (L3)
+Civilian Overall Resilience: 0.910635
+
+Military Layer Resilience:
+  HW: 0.844155 (L3)
+  FW: 0.604676 (L2)
+  NETW: 0.830284 (L3)
+  APPL: 0.797952 (L3)
+Military Overall Resilience: 0.769267
+
+CVE: CVE-2017-0144
+Scenario: unprotected
+Civilian Layer Resilience:
+  HW: 1.000000 (L4)
+  FW: 0.623927 (L2)
+  NETW: 0.841985 (L3)
+  APPL: 0.854801 (L3)
+Civilian Overall Resilience: 0.830178
+
+Military Layer Resilience:
+  HW: 0.844155 (L3)
+  FW: 0.530508 (L2)
+  NETW: 0.703105 (L3)
+  APPL: 0.732575 (L3)
+Military Overall Resilience: 0.702586
+
+CVE: CVE-2017-0144
+Scenario: protected
+Civilian Layer Resilience:
+  HW: 1.000000 (L4)
+  FW: 0.661426 (L2)
+  NETW: 0.897452 (L3)
+  APPL: 0.926552 (L3)
+Civilian Overall Resilience: 0.871358
+
+Military Layer Resilience:
+  HW: 0.844155 (L3)
+  FW: 0.562914 (L2)
+  NETW: 0.747537 (L3)
+  APPL: 0.794582 (L3)
+Military Overall Resilience: 0.737297
+
